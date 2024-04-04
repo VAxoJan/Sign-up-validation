@@ -1,10 +1,7 @@
 import React from "react";
 import { useFormik } from "formik";
 import errorImage from "../Images/error.svg";
-import LeftSide from "./_atoms/LeftSide/LeftSide";
-import RightTop from "./_atoms/RigthSide/RightTop/RightTop";
-import RightFooter from "./_atoms/RigthSide/RightFooter/RightFooter";
-import validationSchema from "../_molecules/Validation/validationSchema";
+import { LeftSide, RightFooter, RightTop, validationSchema } from "..";
 
 const MainPage: React.FC = () => {
   const formik = useFormik({
